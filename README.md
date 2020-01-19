@@ -1,6 +1,7 @@
-This page  is created by zahid3d29 for shopify development purpose.
+This is a simple money converting calc. made by javascript for simple money conversion calculation purpose.
 
 
 Documentation:
 
-no description
+name : simple js money conversion calculator
+developer: zahid3d29
