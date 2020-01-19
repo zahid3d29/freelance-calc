@@ -1,0 +1,134 @@
+  @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:300,400,600|Oswald|Playfair+Display:400,700,900|Roboto&subset=greek-ext');
+  
+  body {
+    height: 100%;
+    background: url(black-background_00313351.jpg) center center fixed;
+    background-size: cover;
+    font-family: 'Roboto',
+    sans-serif;
+    font-family: 'Lato',
+    sans-serif;
+    font-family: 'Oswald',
+    sans-serif;
+    font-family: 'Open Sans',
+    sans-serif;
+    font-family: 'Playfair Display',
+    serif;
+    padding-top: 4%;
+}
+
+/* .blackboard {
+    position: relative;
+    width: 100%;
+    margin: 7% auto;
+    border: tan solid 12px;
+    border-top: #bda27e solid 12px;
+    border-left: #b19876 solid 12px;
+    border-bottom: #c9ad86 solid 12px;
+    box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #c2a782, 0px 0px 0px 4px #a58e6f, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+    background-image: radial-gradient( circle at left 30%, rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0.3) 80px, rgba(34, 34, 34, 0.5) 100px, rgba(51, 51, 51, 0.5) 160px, rgba(51, 51, 51, 0.5)), linear-gradient( 215deg, transparent, transparent 100px, #222 260px, #222 320px, transparent), radial-gradient( circle at right, #111, rgba(51, 51, 51, 1));
+    background-color: #333;
+} */
+
+h3#showResult {
+    text-align: center;
+    margin-top: 35%;
+    position: relative;
+    color: #ffffff;
+}
+
+.blackboard {
+    position: relative;
+    width: 100%;
+    margin: 7% auto;
+    border: #121212 solid 12px;
+    border-top: #0c0c0c solid 12px;
+    border-left: #121212 solid 12px;
+    border-bottom: #282828 solid 12px;
+    box-shadow: 0px 0px 6px 5px rgba(58, 18, 13, 0), 0px 0px 0px 2px #0a0a0a, 0px 0px 0px 4px #dcdcdc, 3px 4px 8px 5px rgba(0, 0, 0, 0.5);
+    background-image: radial-gradient( circle at left 30%, rgba(34, 34, 34, 0.3), rgba(34, 34, 34, 0.3) 80px, rgba(34, 34, 34, 0.5) 100px, rgba(51, 51, 51, 0.5) 160px, rgba(51, 51, 51, 0.5)), linear-gradient( 215deg, transparent, transparent 100px, #181818 260px, #181818 320px, transparent), radial-gradient( circle at right, #181818, rgb(0, 0, 0));
+    background-color: #000;
+}
+
+.blackboard:before {
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( 175deg, transparent, transparent 40px, rgba(120, 120, 120, 0.1) 100px, rgba(120, 120, 120, 0.1) 110px, transparent 220px, transparent), linear-gradient( 200deg, transparent 80%, rgba(50, 50, 50, 0.3)), radial-gradient( ellipse at right bottom, transparent, transparent 200px, rgba(80, 80, 80, 0.1) 260px, rgba(80, 80, 80, 0.1) 320px, transparent 400px, transparent);
+    border: #2c2c2c solid 2px;
+    content: "Withdraw Calculator";
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 2.2em;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form {
+    padding: 70px 20px 20px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.form-control {
+    color: #ffffff;
+    background-color: #111111;
+}
+label {
+    vertical-align: middle;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.98);
+}
+
+
+
+input{
+    vertical-align: middle;
+    padding-left: 10px;
+    background: none;
+    border: none;
+    font-family: 'Roboto',
+    sans-serif;
+    font-size: 1.4em;
+    color: rgba(238, 238, 238, 0.8);
+    line-height: .6em;
+    outline: none;
+}
+
+::-moz-selection {
+    background: rgba(238, 238, 238, 0.2);
+    color: rgba(238, 238, 238, 0.2);
+    text-shadow: none;
+}
+
+::selection {
+    background: rgba(238, 238, 238, 0.4);
+    color: rgba(238, 238, 238, 0.3);
+    text-shadow: none;
+}
+
+.text-muted {
+    color: #c5c5c5 !important;
+    font-size: 0.6em;
+    font-family: monospace;
+}
+
+.btn-warning {
+    background-color: #252525;
+    border-color: #ffffff;
+}
+
+.btn-warning:hover {
+    background-color: #302424;
+    border-color: #049488;
+}
+

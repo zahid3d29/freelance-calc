@@ -1,2 +1,6 @@
-# freelance-calc
-This is a simple Javascript app and it's the documentation of it.
+This page  is created by zahid3d29 for shopify development purpose.
+
+
+Documentation:
+
+no description
