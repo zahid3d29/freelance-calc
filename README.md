@@ -1,7 +1,3 @@
-This is a simple money converting calc. made by javascript for simple money conversion calculation purpose.
+This is an simple app using Javascript. This app will convert your marketplace balance to taka(BDT).  And you will get that amount which you will get after withdrawing from ATM. This is was practice purpose app. But i think it can be helpful for new freelancer's. 
 
-
-Documentation:
-
-name : simple js money conversion calculator
-developer: zahid3d29
+Live link:  https://zahid3d29.github.io/freelance-calc/
