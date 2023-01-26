@@ -24,7 +24,7 @@ form.addEventListener('submit', function(event){
         var FinalBalance = X - TotalFee;
         var YouWillGet = FinalBalance * A;
 
-        showResult.innerHTML = "Hi, After withdraw, you will recieve : <br><br>"  + YouWillGet + " Taka ";
+        showResult.innerHTML = "Hi, After withdraw, you will recieve : <br><br><span class="amount">"  + YouWillGet + " Taka </span>";
 
         event.preventDefault();
     }
